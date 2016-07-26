@@ -1,0 +1,86 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+/*this is the body to change any background color*/
+body{
+	background-color: black;
+	color:white;
+}
+
+/* this is the navigatipn bar changed the background to maroon */
+.navbar-default .navbar-nav>li>a{
+	background-color:#800000;
+	color:white;
+}
+
+/*this is the tag to all the links */ a{     
+	color:black;    
+ 	text-shadow: rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px
+20px, rgb(255, 255, 255) 0px 0px 30px, rgb(0, 255, 255) 0px 0px 40px,
+rgb(0, 255, 255) 0px 0px 70px, rgb(0, 255, 255) 0px 0px 80px, rgb(0,
+255, 255) 0px 0px 100px;
+ }
+
+/*this is the nav bar the whole thing*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color:white;
+	color:black;
+	border-style: inset;
+	border-color: maroon;
+}
+
+/*this changes the color of each button in the nav bars */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:maroon;
+	color:black;
+}
+
+/*this is my name where is was changed to black and a text shadow was added which is jade*/
+.h1, h1{     
+	color:white;       
+}
+
+/*this is when a button is hover over it will turn marron and color text will be red and have a text shadow of fusia*/ 
+a:hover{
+	background-color: maroon;
+	color:red;
+	text-shadow: rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 20px, rgb(255, 255, 255) 0px 0px 30px, rgb(255, 0, 222) 0px 0px 40px, rgb(255, 0, 222) 0px 0px 70px, rgb(255, 0, 222) 0px 0px 80px, rgb(255, 0, 222) 0px 0px 100px;
+}
+
+/* nav bar where the text color was changed to balck*/
+.navbar-default .navbar-brand{
+	color: black;
+}
+/* color text was changed to black is going to be floated to the right of the page*/
+.navbar-default .navbar-nav>li>a{
+	color:black;
+	float:right;
+}
+/* this is jumbotron where the background color was chaned to maroon and added text shadow to fusia*/
+.container .jumbotron, .container-fluid .jumbotron{
+	background-color: maroon;
+}
+/*going to float the menus to the right of the page*/
+.navbar-default .navbar-nav>li>a{
+	float:right;
+}
+/* to float The menus to the right */
+.navbar-nav{
+	float: right;
+}
+button, input, select, textarea{
+	color:black;
+}
+
+
+
